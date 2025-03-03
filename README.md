@@ -81,15 +81,6 @@ flutter run
 <img src="https://github.com/user-attachments/assets/bca05e8a-e93a-422f-b395-bb1fda388f2c" width="300" />
 <img src="https://github.com/user-attachments/assets/788cee9d-f606-48e5-892c-2507bef0a0d3" width="300" />
 <img src="https://github.com/user-attachments/assets/6215c158-8c4d-4e94-8126-3ead0d44143f" width="300" />
-
-
----
-
-## ❗ Known Issues
-- ⚠️ **Package resolution errors** between `time_tracker` and `time_tracker_new`
-- 🔗 **File path inconsistencies** in import statements
-- 🛠️ **Missing adapter implementations** for Hive models
-
 ---
 
 ## 🎯 Next Steps
