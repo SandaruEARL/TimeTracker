@@ -1,6 +1,5 @@
-# TimeTracker
 
-# Time Tracker - Flutter App
+# Time Tracker(TimeFlow) - Flutter App
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.13-blue?style=flat&logo=flutter) ![Dart](https://img.shields.io/badge/Dart-3.0-blue?style=flat&logo=dart) ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
