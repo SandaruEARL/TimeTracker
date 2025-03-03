@@ -35,14 +35,18 @@ Time Tracker allows users to:
 #### 📌 Providers
 - **`ProjectProvider`**: Manages project data and operations
 - **`ThemeProvider`**: Handles theme selection and customization
+- **`TaskProvider`**: Manages task data and operations
 
 #### 📌 Screens
 - **`ProjectsScreen`**: Displays and manages projects
 - **`TasksScreen`**: Shows tasks linked to projects
 - **`SettingsScreen`**: App settings and configurations
+- **`NewEntryScreen`**: Add new time entry for the project
+- **`TimeTrackingScreen`**: Display all the projects/tasks pending
 
 #### 📌 Data Models
 - **`Project`**: Represents a project with associated tasks
+- **`Task`**: Represents a Task with associated projects
 - **`TimeEntry`**: Represents a time-tracking session
 
 ---
