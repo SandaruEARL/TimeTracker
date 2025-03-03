@@ -1,84 +1,105 @@
 # TimeTracker
 
-A Flutter application for tracking time spent on projects and tasks.
-Project Status
-Currently in Development - The app is undergoing refactoring from its previous version (time_tracker_new) to the current structure.
-Overview
-Time Tracker is a productivity application that allows users to:
+# Time Tracker - Flutter App
 
-Create and manage projects
-Track time spent on different tasks
-View time analytics and reports
-Customize the app with different themes
+![Flutter](https://img.shields.io/badge/Flutter-3.13-blue?style=flat&logo=flutter) ![Dart](https://img.shields.io/badge/Dart-3.0-blue?style=flat&logo=dart) ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-Features
+A **productivity app** that helps users track time spent on different projects and tasks efficiently.
 
-Project Management: Create, edit, and organize projects
-Time Tracking: Record time entries for specific tasks and projects
-Theme Support: Toggle between light and dark themes
-Persistent Storage: Data is stored locally using Hive
+## 🚀 Project Status
+🔧 **Currently in Development** - The app is being refactored from its previous version (`time_tracker_new`) to a more structured and optimized architecture.
 
-Technical Details
-Architecture
+## 📌 Overview
+Time Tracker allows users to:
 
-Built with Flutter for cross-platform compatibility
-Uses Provider pattern for state management
-Implements Hive for local data persistence
+✅ Create and manage projects
+✅ Track time spent on different tasks
+✅ View time analytics and reports
+✅ Customize themes (Light/Dark mode)
 
-Key Components
+---
 
-Providers:
+## ✨ Features
+- **Project Management**: Create, edit, and organize projects
+- **Time Tracking**: Log time entries for tasks and projects
+- **Theme Support**: Toggle between light and dark modes
+- **Persistent Storage**: Uses Hive for offline data storage
 
-ProjectProvider: Manages project data and operations
-ThemeProvider: Handles theme selection and customization
+---
 
+## 🛠️ Technical Details
+### Architecture
+- **Flutter**: Cross-platform development
+- **Provider Pattern**: Manages state efficiently
+- **Hive**: Lightweight NoSQL database for data persistence
 
-Screens:
+### Key Components
+#### 📌 Providers
+- **`ProjectProvider`**: Manages project data and operations
+- **`ThemeProvider`**: Handles theme selection and customization
 
-ProjectsScreen: Displays and manages projects
-TasksScreen: Shows tasks associated with projects
-SettingsScreen: App configuration options
+#### 📌 Screens
+- **`ProjectsScreen`**: Displays and manages projects
+- **`TasksScreen`**: Shows tasks linked to projects
+- **`SettingsScreen`**: App settings and configurations
 
+#### 📌 Data Models
+- **`Project`**: Represents a project with associated tasks
+- **`TimeEntry`**: Represents a time-tracking session
 
-Data Models:
+---
 
-Project: Represents a project with associated tasks
-TimeEntry: Represents a time tracking session
+## 🛠️ Setup & Installation
+### Prerequisites
+Ensure you have Flutter installed. If not, follow the [Flutter installation guide](https://flutter.dev/docs/get-started/install).
 
+### Clone the Repository
+```bash
+git clone https://github.com/yourusername/time_tracker.git
+cd time_tracker
+```
 
+### Install Dependencies
+```bash
+flutter pub get
+```
 
-Setup and Installation
+### Run the Application
+```bash
+flutter run
+```
 
-Clone the repository
+---
 
-bashCopygit clone https://github.com/yourusername/time_tracker.git
+## ❗ Known Issues
+- ⚠️ **Package resolution errors** between `time_tracker` and `time_tracker_new`
+- 🔗 **File path inconsistencies** in import statements
+- 🛠️ **Missing adapter implementations** for Hive models
 
-Install dependencies
+---
 
-bashCopyflutter pub get
+## 🎯 Next Steps
+✅ Fix package imports and naming conventions  
+✅ Implement missing Hive adapter classes  
+✅ Correct file paths in import statements  
+✅ Complete screen implementations  
+✅ Add comprehensive data persistence  
+✅ Implement analytics dashboard  
 
-Run the application
+---
 
-bashCopyflutter run
-Known Issues
+## 🤝 Contributing
+Contributions are welcome! Feel free to submit a Pull Request.
 
-Package resolution errors between "time_tracker" and "time_tracker_new"
-File path inconsistencies in import statements
-Missing adapter implementations for Hive models
+---
 
-Next Steps
+## 📜 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
- Fix package imports and naming conventions
- Implement missing adapter classes
- Correct file paths in import statements
- Complete screen implementations
- Add comprehensive data persistence
- Implement analytics dashboard
+---
 
-Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+### 📬 Have Questions?
+For any queries or suggestions, feel free to **open an issue** or reach out. 🚀
 
 <img src="https://github.com/user-attachments/assets/29aac944-cc10-450f-9152-41b7c46112f5" width="300" /><br>
 <img src="https://github.com/user-attachments/assets/48ad2fd8-a7e9-4d95-97e6-c6d61e225f04" width="300" /><br>
